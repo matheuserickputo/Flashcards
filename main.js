@@ -10,4 +10,6 @@ function criaCartão(categoria,pergunta,resposta){
     <h3>${resposta}</h3>
     </div>
     </div>`
+
+    container.appendChild(cartao)
 }
