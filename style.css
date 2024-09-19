@@ -1,0 +1,17 @@
+:root{
+    --fundo: #e7e4e4;
+    --cartao-frente: #937093;
+    --cartao-verso:#715bf0;
+    --branco:white;
+    --preto:black;
+    --destaque:#d8bfd8;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
