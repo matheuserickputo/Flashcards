@@ -22,6 +22,7 @@ footer{
 
 #conteiner{
     padding: 4rem;
+    display: flex;
 
 }
 .conteudo-cartão{
