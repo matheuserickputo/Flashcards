@@ -2,7 +2,7 @@
     --fundo: #e7e4e4;
     --cartao-frente: #937093;
     --cartao-verso:#639955;
-    --branco:white;
+    --branco:rgb(206, 72, 72);
     --preto:rgb(11, 3, 126);
     --destaque:#d8bfd8;
 }
