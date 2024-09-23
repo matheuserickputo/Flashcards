@@ -1,5 +1,5 @@
 :root{
-    --fundo: #f00b0b;
+    --fundo: #e7e4e4;
     --cartao-frente: #937093;
     --cartao-verso:#639955;
     --branco:white;
@@ -26,7 +26,6 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 3rem;
-
 }
 .conteudo-cartão{
     background-color: var(--cartao-frente);
