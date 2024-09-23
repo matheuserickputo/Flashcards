@@ -50,3 +50,7 @@ footer{
     margin-top: 1rem;
     padding-top: 4rem;
 }
+
+.cartao.active.conteudo-cartao{
+    transform: rotateY('180');
+}
