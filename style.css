@@ -19,3 +19,12 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#conteiner{
+    padding: 4rem;
+
+}
+.conteudo-cartão{
+    background-color: var(--cartao-frente);
+}
+
