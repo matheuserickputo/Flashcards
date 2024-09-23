@@ -17,6 +17,6 @@ let respostaVisivel = false
     cartao.classList.toggle('activee',respostaVisivel)
 
     }
-    cartao.addEventListener('click'viracartao);
+    cartao.addEventListener('click',viracartao);
     container.appendChild(cartao)
 }
