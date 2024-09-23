@@ -23,7 +23,10 @@ footer{
 #conteiner{
     padding: 4rem;
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    
 }
 .conteudo-cartão{
     background-color: var(--cartao-frente);
