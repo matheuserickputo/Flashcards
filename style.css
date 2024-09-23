@@ -39,4 +39,14 @@ footer{
 }
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
+    position: absolute;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+}
+
+.conteudo-cartao p{
+    margin-top: 1rem;
+    padding-top: 4rem;
 }
