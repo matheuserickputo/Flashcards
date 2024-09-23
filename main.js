@@ -11,11 +11,11 @@ function criaCartão(categoria,pergunta,resposta){
     </div>
     </div>`
 
-let respostaVisivel = false
+let respostaVisivel = false;
     function viracartao() {
     respostaVisivel = !respostaVisivel;
-    cartao.classList.toggle('active',respostaVisivel)
+    cartao.classList.toggle('active',respostaVisivel);
     }
     cartao.addEventListener('click', viracartao);
-    container.appendChild(cartao)
+    container.appendChild(cartao);
 }
