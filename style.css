@@ -1,10 +1,10 @@
 :root{
     --fundo: #e7e4e4;
-    --cartao-frente: #937093;
-    --cartao-verso:#639955;
+    --cartao-frente: #26dbcc;
+    --cartao-verso:#39a11e;
     --branco:rgb(206, 72, 72);
     --preto:rgb(11, 3, 126);
-    --destaque:#d8bfd8;
+    --destaque:#f5e12d;
 }
 
 body{
@@ -27,7 +27,13 @@ footer{
     justify-content: space-between;
     gap: 3rem;
 }
+
 .conteudo-cartão{
     background-color: var(--cartao-frente);
 }
 
+.conteudo-cartão{
+    margin: 1rem;
+    flex-grow: 1;
+
+}
