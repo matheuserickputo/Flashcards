@@ -62,7 +62,7 @@ footer{
 }
 
 .cartao.active.conteudo-cartao{
-    transform: rotateY('180');
+    transform: rotateY(180deg);
 }
 
 .pergunta-cartao,
@@ -76,7 +76,7 @@ footer{
 
 
 .resposta-cartao{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
     background-color: var(--destaque--);
     border: 4px solid var(--cartao-verso) ;
 }
