@@ -28,8 +28,6 @@ footer{
     gap: 3rem;
 }
 
-
-
 .cartao{
     margin: 1rem;
     flex-grow: 1;
@@ -48,11 +46,14 @@ footer{
     margin: 0.6rem;
     backface-visibility: hidden;
     border-radius: 0.5rem;
+    backface-visibility:hidden;
 }
 
 .conteudo-cartao p{
     margin-top: 1rem;
     padding-top: 4rem;
+    margin-top: 4rem;
+    font-size: 1.4vi;
 }
 
 
