@@ -1,6 +1,6 @@
 :root{
-    --fundo: #e7e4e4;
-    --cartao-frente: #0f00dd;
+    --fundo: #0348b1;
+    --cartao-frente: #3506a3;
     --cartao-verso:#39a11e;
     --branco:rgb(255, 255, 255);
     --preto:rgb(0, 0, 2);
@@ -76,7 +76,7 @@ footer{
 
 
 .resposta-cartao{
-    transform: rotateY(180deg);
+    transform: rotateY('180deg);
     background-color: var(--destaque--);
     border: 4px solid var(--cartao-verso) ;
 }
