@@ -28,9 +28,7 @@ footer{
     gap: 3rem;
 }
 
-.conteudo-cartao{
-    background-color: var(--cartao-frente);
-}
+
 
 .cartao{
     margin: 1rem;
