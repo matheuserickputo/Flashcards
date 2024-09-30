@@ -35,16 +35,18 @@ footer{
 }
 .conteudo-cartao{
     background-color: var(--cartao-frente);
+    color: var(--branco);
+    text-align: center;
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
-    position: absolute;
+    text-align: left;
     padding: 0.5rem;
+    position: absolute;
     margin: 0.6rem;
-    backface-visibility: hidden;
     border-radius: 0.5rem;
     backface-visibility:hidden;
 }
@@ -53,7 +55,7 @@ footer{
     margin-top: 1rem;
     padding-top: 4rem;
     margin-top: 4rem;
-    font-size: 1.4vi;
+    font-size: 1.4vw;
 }
 
 
@@ -67,7 +69,7 @@ footer{
 }
 
 .pergunta-cartao,
-.resposta-cartao p{
+.resposta-cartao {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
